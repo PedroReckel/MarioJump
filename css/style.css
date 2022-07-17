@@ -37,6 +37,24 @@
     animation: jump 500ms ease-out;
 }
 
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 550px;
+    color: rgb(1, 70, 1);
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(1, 131, 1);
+}
+
+footer > a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
