@@ -53,8 +53,8 @@ footer > a {
 footer > a:hover {
     font-weight: bolder;
     text-decoration: underline;
-}
-
+}     
+   
 @keyframes pipe-animation {
     from {
         right: -80px;
