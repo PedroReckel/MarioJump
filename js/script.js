@@ -8,10 +8,9 @@ const jump = () => {
     setTimeout(() => {
         mario.classList.remove('jump')
     }, 500)
-
-    // Esse 'loop' vai ficar verificando se o jogador perdeu ou não
 }
 
+// Esse 'loop' vai ficar verificando se o jogador perdeu ou não
 const loop = setInterval(() => {
     const pipePosition = pipe.offsetLeft // Pegar a posição do tubo na esquerda
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '') // Pegar a posição do botton
